@@ -1,0 +1,44 @@
+﻿@page "/grimorio"
+
+<h3>Grimório</h3>
+<ul>
+    @foreach (var magia in magias)
+    {
+        <li>
+            <p>
+                <h4>@magia.nomeMagia</h4>
+                @magia.descMagia
+            </p>
+        </li>
+        <ul>
+            <li>Tempo: @magia.tempoExecucao</li>
+            <li>Custo: @magia.nivelMagia PM</li>
+        </ul>
+    }
+</ul>
+
+
+
+<hr />
+<h3>Adicionar Magia</h3>
+Nível da Magia: <input @bind="newMagia.nivelMagia" /> <br />
+<input placeholder="Nome" @bind="newMagia.nomeMagia"/> <input placeholder="Tempo de Execução" @bind="newMagia.tempoExecucao"/> <br />
+<input placeholder="Descrição" @bind="newMagia.descMagia" /> <button @onclick="AddMagia">Adicionar</button>
+
+@code {
+    //Precisa Persistir a lista; subir no contexto do app;
+    private IList<Magia> magias = new List<Magia>();
+    private Magia newMagia = new Magia();
+    private void AddMagia(){
+        magias.Add(new Magia{
+            nomeMagia = newMagia.nomeMagia,
+            nivelMagia = newMagia.nivelMagia,
+            tempoExecucao = newMagia.tempoExecucao,
+            descMagia = newMagia.descMagia
+        });
+        newMagia.nomeMagia = "";
+        newMagia.descMagia = "";
+        newMagia.nivelMagia = 0;
+        newMagia.tempoExecucao = "";
+    }
+}

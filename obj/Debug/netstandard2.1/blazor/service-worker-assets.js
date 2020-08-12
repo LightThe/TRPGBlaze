@@ -69,7 +69,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-RCb3qP1kKAOvksIZrsEfCoZHIma+S5y6GrLXQhqDxoA=",
+      "hash": "sha256-a1eVabUBTnBJQUYnYC5H4Nc+ApXRJ8bHXt5D32qwZos=",
       "url": "_framework\/_bin\/TRPG.dll"
     },
     {
@@ -277,7 +277,7 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-zWgzg\/l6ahIIsVFbOqcCU0mmYTNJJT0VUpnOqRvBt7o=",
+      "hash": "sha256-cWeVzbklwh0D\/L5TYA8Wth6x4yD3uujsA9DsG6KNFNk=",
       "url": "_framework\/_bin\/TRPG.pdb"
     },
     {
@@ -297,9 +297,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-8jZu0Op5rXsgoEuY0LsbY9F3izf\/XNuJpp9eN5xJapE=",
+      "hash": "sha256-\/\/NRw5o9XtAgw\/rq+0dt5wFXZXgvvmm1pEmSft+oM7A=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "\/TcPMnft"
+  "version": "k+haRr+W"
 };

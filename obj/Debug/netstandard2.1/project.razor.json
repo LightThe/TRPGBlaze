@@ -9,96 +9,64 @@
     "TagHelpers": [
       {
         "Kind": "Components.Component",
-        "Name": "TRPG.Shared.MainLayout",
+        "Name": "TRPG.App",
         "AssemblyName": "TRPG",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MainLayout",
+            "TagName": "App",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
+        "BoundAttributes": [],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Shared.MainLayout"
+          "Common.TypeName": "TRPG.App"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "TRPG.Shared.MainLayout",
+        "Name": "TRPG.App",
         "AssemblyName": "TRPG",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TRPG.Shared.MainLayout",
+            "TagName": "TRPG.App",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
+        "BoundAttributes": [],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Shared.MainLayout",
+          "Common.TypeName": "TRPG.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "Kind": "Components.ChildContent",
-        "Name": "TRPG.Shared.MainLayout.Body",
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.Counter",
         "AssemblyName": "TRPG",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Body",
-            "ParentTag": "MainLayout",
+            "TagName": "Counter",
+            "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
@@ -108,22 +76,21 @@
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "TRPG.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.Counter"
         }
       },
       {
-        "Kind": "Components.ChildContent",
-        "Name": "TRPG.Shared.MainLayout.Body",
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.Counter",
         "AssemblyName": "TRPG",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Body",
-            "ParentTag": "TRPG.Shared.MainLayout",
+            "TagName": "TRPG.Pages.Counter",
+            "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
@@ -133,9 +100,204 @@
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "TRPG.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.FetchData",
+        "AssemblyName": "TRPG",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.FetchData"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.FetchData",
+        "AssemblyName": "TRPG",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TRPG.Pages.FetchData",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.Index",
+        "AssemblyName": "TRPG",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.Index"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.Index",
+        "AssemblyName": "TRPG",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TRPG.Pages.Index",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.Grimorio",
+        "AssemblyName": "TRPG",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Grimorio",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.Grimorio"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.Grimorio",
+        "AssemblyName": "TRPG",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TRPG.Pages.Grimorio",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.Grimorio",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.Atributos",
+        "AssemblyName": "TRPG",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Atributos",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.Atributos"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.Atributos",
+        "AssemblyName": "TRPG",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TRPG.Pages.Atributos",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.Atributos",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -269,64 +431,96 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "TRPG.App",
+        "Name": "TRPG.Shared.MainLayout",
         "AssemblyName": "TRPG",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App",
+            "TagName": "MainLayout",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.App"
+          "Common.TypeName": "TRPG.Shared.MainLayout"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "TRPG.App",
+        "Name": "TRPG.Shared.MainLayout",
         "AssemblyName": "TRPG",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TRPG.App",
+            "TagName": "TRPG.Shared.MainLayout",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.App",
+          "Common.TypeName": "TRPG.Shared.MainLayout",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "Kind": "Components.Component",
-        "Name": "TRPG.Pages.Counter",
+        "Kind": "Components.ChildContent",
+        "Name": "TRPG.Shared.MainLayout.Body",
         "AssemblyName": "TRPG",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter",
-            "ParentTag": null,
+            "TagName": "Body",
+            "ParentTag": "MainLayout",
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
@@ -336,21 +530,22 @@
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.Counter"
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "TRPG.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
         }
       },
       {
-        "Kind": "Components.Component",
-        "Name": "TRPG.Pages.Counter",
+        "Kind": "Components.ChildContent",
+        "Name": "TRPG.Shared.MainLayout.Body",
         "AssemblyName": "TRPG",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TRPG.Pages.Counter",
-            "ParentTag": null,
+            "TagName": "Body",
+            "ParentTag": "TRPG.Shared.MainLayout",
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
@@ -360,155 +555,9 @@
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "TRPG.Pages.Index",
-        "AssemblyName": "TRPG",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.Index"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "TRPG.Pages.Index",
-        "AssemblyName": "TRPG",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TRPG.Pages.Index",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "TRPG.Pages.FetchData",
-        "AssemblyName": "TRPG",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.FetchData"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "TRPG.Pages.FetchData",
-        "AssemblyName": "TRPG",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TRPG.Pages.FetchData",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "TRPG.Pages.Atributos",
-        "AssemblyName": "TRPG",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Atributos",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.Atributos"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "TRPG.Pages.Atributos",
-        "AssemblyName": "TRPG",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TRPG.Pages.Atributos",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.Atributos",
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "TRPG.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16585,6 +16634,11 @@
     {
       "FilePath": "/Users/light/code/blazor/TRPG/Pages/Atributos.razor",
       "TargetPath": "Pages\\Atributos.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/light/code/blazor/TRPG/Pages/Grimorio.razor",
+      "TargetPath": "Pages\\Grimorio.razor",
       "FileKind": "component"
     },
     {
