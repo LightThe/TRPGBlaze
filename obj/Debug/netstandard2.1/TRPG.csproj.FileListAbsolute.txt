@@ -365,8 +365,8 @@
 /Users/light/code/blazor/TRPG/obj/Debug/netstandard2.1/Razor/Pages/Atributos.razor.g.cs
 /Users/light/code/blazor/TRPG/obj/Debug/netstandard2.1/RazorDeclaration/Pages/Grimorio.razor.g.cs
 /Users/light/code/blazor/TRPG/obj/Debug/netstandard2.1/Razor/Pages/Grimorio.razor.g.cs
-/Users/light/code/blazor/TRPG/obj/Debug/netstandard2.1/integrity/RGlq6YgPPNfwxyHKSiTyz4NJRfB9tXVKmNl_qKNJQLo=.hash
-/Users/light/code/blazor/TRPG/obj/Debug/netstandard2.1/integrity/a1eVabUBTnBJQUYnYC5H4Nc_ApXRJ8bHXt5D32qwZos=.hash
-/Users/light/code/blazor/TRPG/obj/Debug/netstandard2.1/integrity/cWeVzbklwh0D-L5TYA8Wth6x4yD3uujsA9DsG6KNFNk=.hash
-/Users/light/code/blazor/TRPG/obj/Debug/netstandard2.1/integrity/--NRw5o9XtAgw-rq_0dt5wFXZXgvvmm1pEmSft_oM7A=.hash
-/Users/light/code/blazor/TRPG/obj/Debug/netstandard2.1/integrity/igmbAgdwO8-yc_7s6UtJF1T9LBJaN4Z4UGB_4Iq8svg=.hash
+/Users/light/code/blazor/TRPG/obj/Debug/netstandard2.1/integrity/cY7D5pAwI-ejh8T-Xhm-FxofcYOcqHyMXgGNTVgi_B8=.hash
+/Users/light/code/blazor/TRPG/obj/Debug/netstandard2.1/integrity/UKnd-iN8t9EHk-tv0IsXmfMeTYNbM-dLEu5aFKhkXKg=.hash
+/Users/light/code/blazor/TRPG/obj/Debug/netstandard2.1/integrity/A0KzXOmNeLOPGcCa9JJcmjNt9P9HA9wCEQTWXWknKWU=.hash
+/Users/light/code/blazor/TRPG/obj/Debug/netstandard2.1/integrity/L9qVk2NreKDTpW8EOSqc-_vKbXSMkdzaXkmrytblM7I=.hash
+/Users/light/code/blazor/TRPG/obj/Debug/netstandard2.1/integrity/5omHv2KQlPs6EDjDVchosNnaePmGw231I0D-rlSckS0=.hash

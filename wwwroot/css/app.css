@@ -181,3 +181,33 @@ app {
         display: block;
     }
 }
+
+/* Custom CSS */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+}
+.flex-container > div {
+    margin: 5px;
+    flex: 0 0 auto;
+    background-color: #1d1e20;
+    color: white;
+    text-align: center;
+}
+  
+.valores {
+    width: 75px;
+    margin: auto;
+    padding: 3px
+}
+.nome {
+    font-size: 10px;
+}
+.nome-rdz {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}

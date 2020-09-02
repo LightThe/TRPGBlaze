@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/a1eVabUBTnBJQUYnYC5H4Nc_ApXRJ8bHXt5D32qwZos=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/UKnd-iN8t9EHk-tv0IsXmfMeTYNbM-dLEu5aFKhkXKg=.hash",
       "Source": "\/Users\/light\/code\/blazor\/TRPG\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/TRPG.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/TRPG.dll.br"
     },
@@ -261,7 +261,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/cWeVzbklwh0D-L5TYA8Wth6x4yD3uujsA9DsG6KNFNk=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/A0KzXOmNeLOPGcCa9JJcmjNt9P9HA9wCEQTWXWknKWU=.hash",
       "Source": "\/Users\/light\/code\/blazor\/TRPG\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/TRPG.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/TRPG.pdb.br"
     },
@@ -286,12 +286,12 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/--NRw5o9XtAgw-rq_0dt5wFXZXgvvmm1pEmSft_oM7A=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/L9qVk2NreKDTpW8EOSqc-_vKbXSMkdzaXkmrytblM7I=.hash",
       "Source": "\/Users\/light\/code\/blazor\/TRPG\/obj\/Debug\/netstandard2.1\/blazor\/blazor.boot.json",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/igmbAgdwO8-yc_7s6UtJF1T9LBJaN4Z4UGB_4Iq8svg=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/5omHv2KQlPs6EDjDVchosNnaePmGw231I0D-rlSckS0=.hash",
       "Source": "\/Users\/light\/code\/blazor\/TRPG\/obj\/Debug\/netstandard2.1\/blazor\/service-worker-assets.js",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/service-worker-assets.js.br"
     }

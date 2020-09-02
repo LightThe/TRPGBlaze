@@ -2,10 +2,11 @@ using System.Collections.Generic;
 
 public class Atributo{
     public string nomeAtr { get; set; }
+    public string nomeRdzAtr { get; set; }
     public int valorAtr { get; set; }
     public int modAtr { get; set; }
 
-    Dictionary<int, int> modLookup = new Dictionary<int, int>(){
+    private Dictionary<int, int> modLookup = new Dictionary<int, int>(){
         {1, -5},
         {2, -4},
         {3, -4},
@@ -33,7 +34,15 @@ public class Atributo{
         {25, 7},
     };
 
-    public int CalculaModificador(int valor){
-        return modLookup.GetValueOrDefault(valor);
+    public Atributo(string nomeAtributo, int valorAtributo){
+        nomeAtr = nomeAtributo;
+        nomeRdzAtr = nomeAtributo.ToUpper().Substring(0,3);
+        valorAtr = valorAtributo;
+        modAtr = modLookup.GetValueOrDefault(valorAtributo);
     }
+
+    public void UpdateModificador(){
+        this.modAtr = modLookup.GetValueOrDefault(this.valorAtr);
+    }
+
 }
