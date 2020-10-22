@@ -47,7 +47,7 @@ app {
 }
 
 .sidebar {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-image: linear-gradient(180deg, #1E1310, #6C2C16, #811F16);
 }
 
     .sidebar .top-row {
@@ -190,13 +190,13 @@ app {
     justify-content: center;
     max-width: 800px;
 }
-.flex-container > div {
-    margin: 5px;
-    flex: 0 0 auto;
-    background-color: #1d1e20;
-    color: white;
-    text-align: center;
-}
+    .flex-container > div {
+        margin: 5px;
+        flex: 0 0 auto;
+        background-color: #1d1e20;
+        color: white;
+        text-align: center;
+    }
   
 .valores {
     width: 75px;

@@ -1,44 +1,77 @@
 ﻿@page "/grimorio"
 
 <h3>Grimório</h3>
-<ul>
-    @foreach (var magia in magias)
-    {
-        <li>
-            <p>
-                <h4>@magia.nomeMagia</h4>
-                @magia.descMagia
-            </p>
-        </li>
+
+@foreach (var nivel in Magia.AgruparPorNivel(magias)){
+    <ul>
+        <li>Nível @nivel.Key</li>
         <ul>
-            <li>Tempo: @magia.tempoExecucao</li>
-            <li>Custo: @magia.nivelMagia PM</li>
+            @foreach (var magia in nivel){
+                <li>@magia.nomeMagia</li>
+            }
         </ul>
-    }
-</ul>
-
-
+    </ul>
+}
 
 <hr />
-<h3>Adicionar Magia</h3>
-Nível da Magia: <input @bind="newMagia.nivelMagia" /> <br />
-<input placeholder="Nome" @bind="newMagia.nomeMagia"/> <input placeholder="Tempo de Execução" @bind="newMagia.tempoExecucao"/> <br />
-<input placeholder="Descrição" @bind="newMagia.descMagia" /> <button @onclick="AddMagia">Adicionar</button>
+@if(isHidden){
+    <button @onclick="ToggleAddMenu"><h3>Adicionar Magia</h3></button>
+}
+else{
+    <div class="card">
+        <h1><input placeholder="Nome da Magia" @bind="newMagia.nomeMagia"/></h1>
+        <h5>Divina, nível <input maxlength="2" @bind="newMagia.nivelMagia" /></h5>
+
+        <p><input placeholder="Descrição" @bind="newMagia.descMagia" /></p>        
+        
+        <div class="atributo">
+            <div class="dado"><input @bind="newMagia.alcance"/></div>
+            <div class="legenda">Alcance</div>
+        </div>
+        <div class="atributo">
+            <div class="dado"><input @bind="newMagia.alvo"/></div>
+            <div class="legenda">Alvo/Área</div>
+        </div>
+        <div class="atributo">
+            <div class="dado"><input @bind="newMagia.duracao"/></div>
+            <div class="legenda">Duração</div>
+        </div>
+        <div class="atributo">
+            <div class="dado"><input @bind="newMagia.testeResistencia"/></div>
+            <div class="legenda">Teste de Resistência</div>
+        </div>
+        <div class="atributo">
+            <div class="dado"><input @bind="newMagia.tempoExecucao"/></div>
+            <div class="legenda">Tempo de Execução</div>
+        </div>
+        <div class="barra">
+            <button @onclick="AddMagia"><span class="oi oi-check"></span></button>
+            <button @onclick="ToggleAddMenu"><span class="oi oi-x"></span></button>
+        </div>
+    </div>
+}
 
 @code {
     //Precisa Persistir a lista; subir no contexto do app;
     private IList<Magia> magias = new List<Magia>();
     private Magia newMagia = new Magia();
+    private Boolean isHidden = true;
+
     private void AddMagia(){
         magias.Add(new Magia{
             nomeMagia = newMagia.nomeMagia,
             nivelMagia = newMagia.nivelMagia,
             tempoExecucao = newMagia.tempoExecucao,
-            descMagia = newMagia.descMagia
+            descMagia = newMagia.descMagia,
+            alcance = newMagia.alcance,
+            alvo = newMagia.alvo,
+            duracao = newMagia.duracao,
+            testeResistencia = newMagia.testeResistencia
         });
-        newMagia.nomeMagia = "";
-        newMagia.descMagia = "";
-        newMagia.nivelMagia = 0;
-        newMagia.tempoExecucao = "";
+        newMagia.Clear();
+        ToggleAddMenu();
+    }
+    private void ToggleAddMenu(){
+        isHidden = !isHidden;
     }
 }

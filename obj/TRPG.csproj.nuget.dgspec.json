@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/light/code/blazor/TRPG/TRPG.csproj": {}
+    "/home/light/code/blazor/easytrpgchars/TRPG.csproj": {}
   },
   "projects": {
-    "/Users/light/code/blazor/TRPG/TRPG.csproj": {
+    "/home/light/code/blazor/easytrpgchars/TRPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/light/code/blazor/TRPG/TRPG.csproj",
+        "projectUniqueName": "/home/light/code/blazor/easytrpgchars/TRPG.csproj",
         "projectName": "TRPG",
-        "projectPath": "/Users/light/code/blazor/TRPG/TRPG.csproj",
-        "packagesPath": "/Users/light/.nuget/packages/",
-        "outputPath": "/Users/light/code/blazor/TRPG/obj/",
+        "projectPath": "/home/light/code/blazor/easytrpgchars/TRPG.csproj",
+        "packagesPath": "/home/light/.nuget/packages/",
+        "outputPath": "/home/light/code/blazor/easytrpgchars/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/light/.nuget/NuGet/NuGet.Config"
+          "/home/light/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.107/RuntimeIdentifierGraph.json"
         }
       }
     }
