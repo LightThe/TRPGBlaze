@@ -1,21 +1,25 @@
 ﻿@page "/grimorio"
 
 <h3>Grimório</h3>
-
-@foreach (var nivel in Magia.AgruparPorNivel(magias)){
-    <ul>
-        <li>Nível @nivel.Key</li>
-        <ul>
-            @foreach (var magia in nivel){
-                <li>@magia.nomeMagia</li>
-            }
-        </ul>
-    </ul>
-}
+<div class="grimorio">
+    @foreach (var nivel in Magia.AgruparPorNivel(magias)){
+        <div class="nivel-magia">
+            <h4>Nível @nivel.Key</h4>
+            <ul>
+                @foreach (var magia in nivel){
+                    <li><button @onclick="() => {OpenMagia(magia);}">@magia.nomeMagia</button></li>
+                }
+            </ul>
+        </div>
+    }
+</div>
 
 <hr />
 @if(isHidden){
-    <button @onclick="ToggleAddMenu"><h3>Adicionar Magia</h3></button>
+    <button @onclick="ToggleAddMenu">Adicionar Magia</button>
+    <br />
+    <br />
+    <input @bind="listaCompleta"> <button @onclick="AddText">Pré Carregar</button>
 }
 else{
     <div class="card">
@@ -56,6 +60,7 @@ else{
     private IList<Magia> magias = new List<Magia>();
     private Magia newMagia = new Magia();
     private Boolean isHidden = true;
+    private string listaCompleta;
 
     private void AddMagia(){
         magias.Add(new Magia{
@@ -73,5 +78,23 @@ else{
     }
     private void ToggleAddMenu(){
         isHidden = !isHidden;
+    }
+    private void AddText(){
+        IList<String> jsonMagias = listaCompleta.Split('_');
+        foreach (var linha in jsonMagias)
+        {
+            magias.Add(System.Text.Json.JsonSerializer.Deserialize<Magia>(linha));
+        }
+    }
+    private void OpenMagia(Magia magia){
+        newMagia.nomeMagia = magia.nomeMagia;
+        newMagia.nivelMagia = magia.nivelMagia;
+        newMagia.tempoExecucao = magia.tempoExecucao;
+        newMagia.descMagia = magia.descMagia;
+        newMagia.alcance = magia.alcance;
+        newMagia.alvo = magia.alvo;
+        newMagia.duracao = magia.duracao;
+        newMagia.testeResistencia = magia.testeResistencia;
+        ToggleAddMenu();
     }
 }

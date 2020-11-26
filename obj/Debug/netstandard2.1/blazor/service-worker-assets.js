@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-7PEJv3SNklqpYSWDqaI7EHEeD2YJb73kwhRn8eNXPA4=",
+      "hash": "sha256-2mN2PHYBVaON76SelMTROKQcJk0xRrwlEGZZCJicM6c=",
       "url": "css\/app.css"
     },
     {
@@ -73,7 +73,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-ZdU0q3y\/O2vXQx56420hCPUR+LJa6bDTsbOHD3w2z0E=",
+      "hash": "sha256-VNU\/y9SNJKPNiMMCmcx7r5f6mZwxP5s+MiHQu\/9WIuo=",
       "url": "_framework\/_bin\/TRPG.dll"
     },
     {
@@ -281,7 +281,7 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-ya+KnV9JDcMoCT0iIVM\/hgdljHNAoqKi5S6R4gfeg60=",
+      "hash": "sha256-w9fx3LfUvlqSechVRUwB8peYC3VXLos2aGLAbCet\/q8=",
       "url": "_framework\/_bin\/TRPG.pdb"
     },
     {
@@ -301,9 +301,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-+rWCUre16VE6GWDlnZV8pfP\/KGDCR\/BOhOQ75q+V\/OM=",
+      "hash": "sha256-OX1rOnr9A81UQA5opq73qNI+zKslhbqC5K6z7aznZTg=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "M2K+NOV0"
+  "version": "Y2jID8vg"
 };

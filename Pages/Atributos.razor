@@ -13,7 +13,7 @@
         }
         <div class="atributo">
             <div class="valores">
-                <input size="3" @onfocusout="() => {atr.UpdateModificador();}" @bind="atr.valorAtr" /><input disabled="true" size="3" value="@modSoma" />
+                <input size="3" @bind="atr.valorAtr" @bind:event="oninput" @onkeyup="(KeyboardEventArgs eventArgs) => {EnterPressionado(eventArgs, atr);}" /><input readonly="readonly" tabindex="-1" size="3" value="@modSoma" />
             </div>
             <div class="nome-rdz">@atr.nomeRdzAtr</div>
             <div class="nome">@atr.nomeAtr</div>
@@ -31,4 +31,12 @@
         new Atributo("Carisma", 10)
         //new Atributo("Honra",10)
     };
+
+    private void EnterPressionado(KeyboardEventArgs eventArgs, Atributo attrib){
+        if(eventArgs.Key == "Enter")
+        {
+            attrib.UpdateModificador();
+        }
+    }
+    //@onfocusout="() => {atr.UpdateModificador();}"
 }

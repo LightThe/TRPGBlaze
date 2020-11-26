@@ -736,8 +736,9 @@
 /home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/TRPG.pdb
 /home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/blazor/serviceworkers/wwwroot/service-worker.js
 /home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/blazor/service-worker-assets.js
-/home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/integrity/0ya8Bl9KfhiPbCTCiK6NVVmUhkwnBJPnHm8CN4YQxcg=.hash
-/home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/integrity/ZdU0q3y-O2vXQx56420hCPUR_LJa6bDTsbOHD3w2z0E=.hash
-/home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/integrity/ya_KnV9JDcMoCT0iIVM-hgdljHNAoqKi5S6R4gfeg60=.hash
-/home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/integrity/_rWCUre16VE6GWDlnZV8pfP-KGDCR-BOhOQ75q_V-OM=.hash
-/home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/integrity/wVywkYHAK6u5v1758WExox4zwIRQsnKXoLgPIhTFnGc=.hash
+/home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/TRPG.csproj.CoreCompileInputs.cache
+/home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/integrity/VNU-y9SNJKPNiMMCmcx7r5f6mZwxP5s_MiHQu-9WIuo=.hash
+/home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/integrity/w9fx3LfUvlqSechVRUwB8peYC3VXLos2aGLAbCet-q8=.hash
+/home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/integrity/OX1rOnr9A81UQA5opq73qNI_zKslhbqC5K6z7aznZTg=.hash
+/home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/integrity/yKDlbVm7cr5IslTCdUa7cDqjGL49Jn6gxuUpZFzYcfA=.hash
+/home/light/code/blazor/easytrpgchars/obj/Debug/netstandard2.1/integrity/s3M0TbpFxjFJsnFHvuyLi40M4qnAcKhmLUyRTHeK3IQ=.hash

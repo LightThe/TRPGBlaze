@@ -188,7 +188,7 @@ app {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 800px;
+    max-width: 1200px;
 }
     .flex-container > div {
         margin: 5px;
@@ -197,12 +197,17 @@ app {
         color: white;
         text-align: center;
     }
-  
+
 .valores {
     width: 75px;
     margin: auto;
     padding: 3px
 }
+    .valores > input{
+        border-radius: 0px;
+        background-color: #fff;
+        text-align: center;
+    }
 .nome {
     font-size: 10px;
 }
@@ -210,4 +215,16 @@ app {
     font-size: 20px;
     margin: 0px;
     padding: 0px;
+}
+.grimorio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+.nivel-magia {
+    margin: 2px;
+    flex: 0 0 auto;
+    border: 2px solid black;
+    width: 400px;
 }

@@ -8,6 +8,72 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 361542393,
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.Grimorio",
+        "AssemblyName": "TRPG",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Grimorio"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.Grimorio"
+        }
+      },
+      {
+        "HashCode": 1620905774,
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.Grimorio",
+        "AssemblyName": "TRPG",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TRPG.Pages.Grimorio"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.Grimorio",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 816968054,
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.Atributos",
+        "AssemblyName": "TRPG",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Atributos"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.Atributos"
+        }
+      },
+      {
+        "HashCode": 1374353791,
+        "Kind": "Components.Component",
+        "Name": "TRPG.Pages.Atributos",
+        "AssemblyName": "TRPG",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TRPG.Pages.Atributos"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TRPG.Pages.Atributos",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -2040772482,
         "Kind": "Components.Component",
         "Name": "TRPG.Pages.Counter",
@@ -74,39 +140,6 @@
         }
       },
       {
-        "HashCode": 816968054,
-        "Kind": "Components.Component",
-        "Name": "TRPG.Pages.Atributos",
-        "AssemblyName": "TRPG",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Atributos"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.Atributos"
-        }
-      },
-      {
-        "HashCode": 1374353791,
-        "Kind": "Components.Component",
-        "Name": "TRPG.Pages.Atributos",
-        "AssemblyName": "TRPG",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TRPG.Pages.Atributos"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.Atributos",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1087924513,
         "Kind": "Components.Component",
         "Name": "TRPG.Pages.Index",
@@ -140,35 +173,35 @@
         }
       },
       {
-        "HashCode": 361542393,
+        "HashCode": -1961896007,
         "Kind": "Components.Component",
-        "Name": "TRPG.Pages.Grimorio",
+        "Name": "TRPG.App",
         "AssemblyName": "TRPG",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Grimorio"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.Grimorio"
+          "Common.TypeName": "TRPG.App"
         }
       },
       {
-        "HashCode": 1620905774,
+        "HashCode": -1147831096,
         "Kind": "Components.Component",
-        "Name": "TRPG.Pages.Grimorio",
+        "Name": "TRPG.App",
         "AssemblyName": "TRPG",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TRPG.Pages.Grimorio"
+            "TagName": "TRPG.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.Grimorio",
+          "Common.TypeName": "TRPG.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -351,39 +384,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "TRPG.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1961896007,
-        "Kind": "Components.Component",
-        "Name": "TRPG.App",
-        "AssemblyName": "TRPG",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.App"
-        }
-      },
-      {
-        "HashCode": -1147831096,
-        "Kind": "Components.Component",
-        "Name": "TRPG.App",
-        "AssemblyName": "TRPG",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TRPG.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
