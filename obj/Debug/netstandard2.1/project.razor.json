@@ -8,39 +8,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 361542393,
-        "Kind": "Components.Component",
-        "Name": "TRPG.Pages.Grimorio",
-        "AssemblyName": "TRPG",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Grimorio"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.Grimorio"
-        }
-      },
-      {
-        "HashCode": 1620905774,
-        "Kind": "Components.Component",
-        "Name": "TRPG.Pages.Grimorio",
-        "AssemblyName": "TRPG",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TRPG.Pages.Grimorio"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.Grimorio",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 816968054,
         "Kind": "Components.Component",
         "Name": "TRPG.Pages.Atributos",
@@ -107,35 +74,35 @@
         }
       },
       {
-        "HashCode": -1046355347,
+        "HashCode": 361542393,
         "Kind": "Components.Component",
-        "Name": "TRPG.Pages.FetchData",
+        "Name": "TRPG.Pages.Grimorio",
         "AssemblyName": "TRPG",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "Grimorio"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.FetchData"
+          "Common.TypeName": "TRPG.Pages.Grimorio"
         }
       },
       {
-        "HashCode": 1437351485,
+        "HashCode": 1620905774,
         "Kind": "Components.Component",
-        "Name": "TRPG.Pages.FetchData",
+        "Name": "TRPG.Pages.Grimorio",
         "AssemblyName": "TRPG",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TRPG.Pages.FetchData"
+            "TagName": "TRPG.Pages.Grimorio"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TRPG.Pages.FetchData",
+          "Common.TypeName": "TRPG.Pages.Grimorio",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -11851,11 +11818,6 @@
       "FilePath": "/home/light/code/blazor/easytrpgchars/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "/home/light/code/blazor/easytrpgchars/Pages/FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
     },
     {
       "FilePath": "/home/light/code/blazor/easytrpgchars/Shared/SurveyPrompt.razor",
