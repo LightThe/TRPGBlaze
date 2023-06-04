@@ -1,0 +1,10 @@
+﻿<div class="m3-card @Type">
+    @ChildContent
+</div>
+
+@code {
+    [Parameter]
+    public string Type { get; set; } = "outlined";
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+}

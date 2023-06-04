@@ -1,0 +1,22 @@
+button {
+  height: 40px;
+  border-radius: 20px;
+  padding: 0px 24px;
+  margin: 8px 0px;
+}
+button.outlined {
+  background: var(--md-sys-color-surface);
+  color: var(--md-sys-color-primary);
+  border: 1px solid var(--md-sys-color-outline);
+}
+button.outlined:hover {
+  background: rgba(166, 58, 45, 0.08);
+}
+button.filled {
+  background: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+  border: none;
+}
+button.filled:hover {
+  box-shadow: 0px 0px 2px #000000;
+}

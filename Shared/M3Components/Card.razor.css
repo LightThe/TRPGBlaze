@@ -1,0 +1,12 @@
+﻿.m3-card {
+  border-radius: 12px;
+}
+.m3-card.filled {
+  background: var(--md-sys-color-surface-container-highest);
+  color: var(--md-sys-color-on-surface);
+}
+.m3-card.outlined {
+  background: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-surface);
+  border: 1px solid var(--md-sys-color-outline);
+}

@@ -1,0 +1,64 @@
+.grimorio {
+  background-color: var(--md-sys-color-surface-container);
+  color: var(--md-sys-color-on-surface);
+  display: flex;
+  align-items: flex-start;
+}
+.lista-magias {
+  flex: 1;
+  max-width: 400px;
+  max-height: calc(100vh - 16px);
+  overflow-y: scroll;
+  margin: 8px;
+  border-radius: 12px;
+}
+.detalhe-magia {
+  flex: 1;
+  margin: 8px;
+  max-width: 300px;
+}
+
+/* Lista */
+.nivel-magia {
+  background: var(--md-sys-color-surface-light);
+  padding-top: 8px;
+}
+.nivel-magia > span {
+  color: var(--md-sys-color-primary-light);
+  padding: 8px 24px 8px 16px;
+}
+
+/* Dtealhes */
+.card-body {
+  padding: 8px 16px;
+}
+.dados-magia {
+  padding: 8px 0px;
+}
+.dados-magia > div {
+  padding-top: 4px;
+}
+.magia-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* M3 List Style temporary*/
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+ul > a {
+  text-decoration: none;
+}
+li {
+  height: 56px;
+  padding: 8px 24px 8px 16px;
+  color: var(--md-sys-color-on-surface-light);
+  display: flex;
+  align-items: center;
+}
+li:hover {
+  background-color: rgba(32, 26, 25, 0.08);
+}

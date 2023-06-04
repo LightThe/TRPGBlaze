@@ -1,0 +1,8 @@
+﻿<button class="label-large m3-button @Type">@ChildContent</button>
+
+@code {
+    [Parameter]
+    public string Type { get; set; } = "filled";
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+}
