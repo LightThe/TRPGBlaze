@@ -41,18 +41,17 @@ public static class MagiaService
     }
 
     public static List<Magia> GetAll() => Magias;
-    // public static Magia Get(string nome) => Magias.FirstOrDefault(m => m.Nome == nome);
-
+    public static Magia Get(string nome) => Magias.FirstOrDefault(m => m.Nome == nome);
     public static void Add(Magia magia){
         Magias.Add(magia);
     }
-    // public static void Delete(string nome){
-    //     var magia = Get(nome);
-    //     if(magia is null)
-    //         return;
+    public static void Delete(string nome){
+        var magia = Get(nome);
+        if(magia is null)
+            return;
         
-    //     Magias.Remove(magia);
-    // }
+        Magias.Remove(magia);
+    }
 
     public static IOrderedEnumerable<IGrouping<int,Magia>> GetGroupedByLevel(){
         var queryNiveis = from magia in Magias
